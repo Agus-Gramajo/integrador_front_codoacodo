@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
+/*Header*/
+.header-container {
+    background-image: url(./assets/img/header.jpg);
+    background-attachment: fixed;
+    background-color: #263e64;
+    color: white;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container ul {
+    
+    display: inline-flex;
+}
+.header-container li {
+    margin-inline: 5%;
+}
+.header-logo {
+    margin: 0% 13% 0% 4%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.header-logo h2 {
+    align-self: flex-end;
+}
+.header-desc {
+    display: flex;
+    height: 450px;
+    width: 370px;
+    align-items: flex-end;
+    margin-left: 4%;
+}
+.header-desc h2 {
+    font-weight: 400;
+}
+
+/*Nosotros*/
+#nosotros {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+#nosotros h2 {
+    font-weight: initial;
+    position: absolute;
+    margin-bottom: 3%;
+}
+.nos-card {
+    width: 25%;
+    text-align: center;
+    margin: 5% 3%;
+}
+.nos-card img {
+    margin-bottom: 10%;
+    width: 90px;
+    height: 90px;
+}
+.nos-card h3 {
+    margin-bottom: 5%;
+}
+/* En venta*/
+.card-container {
+    display: flex;
+    margin: 5% 2% 1%;
+    justify-content: center;
+}
+#en-venta {
+    margin: 10% 2%;
+}
+#en-venta h2 {
+    font-weight: initial;
+    text-align: center;
+}
+.venta-card {
+    background-color: rgb(245, 245, 245);
+    border: solid grey 1px;
+    width: 30%;
+    margin: 1%;
+}
+.venta-card img {
+    width: 100%;
+}
+.venta-card p {
+    font-size: 13px;
+    margin: 4% 2%;
+}
+.venta-card h3 {
+    margin: 4% 2%;
+    font-weight: 400;
+    font-size: 18px;
+}
+.venta-card span {
+    color: rgb(13, 153, 13);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4% 2%;
+} 
+.venta-card button {
+    background-color: #ea9802;
+    color: white;
+    font-weight: 600;
+    width: 90%;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    margin: 4% 0px;
+    cursor: pointer;
+}
+.venta-card-desc {
+    display: flex;
+    justify-content: center;
+}
+.venta-card-desc img {
+    width:20px;
+}
+.venta-card-desc span {
+    color: black;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 5% 10% 2% 5%;
+}
+.venta-card-button {
+    display: flex;
+    justify-content: center;
+}
+.green-btn {
+    background-color: #24aa13;
+    color: white;
+    font-weight: 600;
+    width: 120px;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    margin: 0% 5%;
+    cursor: pointer;
+    float: right;
+}
+/*Contacto*/
+#contacto {
+    background-image: url(./assets/img/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 45vh;
+    display: flex;
+}
+#contacto h2 {
+    font-weight: initial;
+}
+#contacto p {
+    margin: 2% 0%;
+}
+#contacto button {
+    background-color: #ea9802;
+    color: white;
+    font-weight: 600;
+    width: 130px;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    margin: 1% 0px;
+    cursor: pointer;
+}
+.cta-container {
+    margin: 5%;
+    display: grid;
+    align-items: end;
+}
+
+/*Footer*/
+#footer {
+    background-color: rgb(39, 48, 48);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+#footer ul {
+    display: inline-flex;
+} 
+#footer li {
+    margin-inline: 2%;
+}
